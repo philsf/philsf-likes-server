@@ -1,0 +1,34 @@
+Source: philsf-likes-server
+Section: metapackages
+Priority: optional
+Maintainer: Felipe Figueiredo <philsf79@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+# Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-server
+Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-server
+
+Package: philsf-likes-server
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Recommends:
+ btop | htop,
+ lm-sensors,
+ samba,
+ smbclient,
+ smartmontools,
+ hdparm,
+ nvme-cli,
+ rsync,
+ ssh,
+ ufw,
+ thermald,
+Suggests:
+ net-tools,
+ tlp,
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
