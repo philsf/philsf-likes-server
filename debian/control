@@ -3,8 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 Rules-Requires-Root: no
-Build-Depends:
- debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.2
 # Homepage: <insert the upstream URL, if relevant>
 Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-server
@@ -13,8 +12,7 @@ Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-server
 Package: philsf-likes-server
 Architecture: all
 Multi-Arch: foreign
-Depends:
- ${misc:Depends},
+Depends: ${misc:Depends},
 Recommends:
  btop | htop,
  lm-sensors,
@@ -31,5 +29,8 @@ Suggests:
  net-tools,
  sqlite3 | sqlite3-doc,
  tlp,
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: philsf's local network server admin environment
+ Metapackage for local network server management.
+ .
+ It provides essential tools to access, monitor, and manage services in
+ a local network environment for server administrators.
