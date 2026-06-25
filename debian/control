@@ -29,6 +29,7 @@ Recommends:
  thermald,
 Suggests:
  net-tools,
+ sqlite3 | sqlite3-doc,
  tlp,
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
