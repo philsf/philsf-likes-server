@@ -1,9 +1,9 @@
-philsf-likes-server (0.2.1) UNRELEASED; urgency=medium
+philsf-likes-server (0.2.1) resolute; urgency=medium
 
   * Added (Recommends): dnsutils, nmap, wakeonlan, iperf3,
   * Removed (Recommends): lm-sensors, smartmontools, hdparm, nvme-cli, thermald
 
- -- Felipe Figueiredo <philsf79@gmail.com>  Thu, 25 Jun 2026 22:05:58 -0300
+ -- Felipe Figueiredo <philsf79@gmail.com>  Fri, 26 Jun 2026 05:54:39 -0300
 
 philsf-likes-server (0.2.0) resolute; urgency=medium
 
