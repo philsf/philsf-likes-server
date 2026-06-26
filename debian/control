@@ -14,6 +14,7 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
 Recommends:
+ dnsutils,
  btop | htop,
  lm-sensors,
  samba,
@@ -25,11 +26,13 @@ Recommends:
  ssh,
  ufw,
  thermald,
-Suggests:
+ nmap,
  net-tools,
- sqlite3 | sqlite3-doc,
+ wakeonlan,
+ iperf3,
+Suggests:
  tlp,
-Description: philsf's local network server admin environment
+Description: philsf's local network server admin toolkit
  Metapackage for local network server management.
  .
  It provides essential tools to access, monitor, and manage services in
